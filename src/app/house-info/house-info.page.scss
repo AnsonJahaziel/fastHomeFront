@@ -1,0 +1,109 @@
+ion-content {
+  font-family: SourceSansPro !important;
+
+  #map {
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 25%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+    display: block;
+    &.show-map {
+      opacity: 1;
+    }
+  }
+}
+
+ion-title {
+  color: #444;
+  font-family: SourceSansPro !important;
+  font-weight: bolder;
+  font-size: 25px;
+
+  align-content: center;
+  letter-spacing: 1.5px;
+  margin-right: 25px;
+}
+
+ion-toolbar {
+  --min-height: 42px !important;
+}
+
+.backButton {
+  font-size: 25px;
+  color: #335c67;
+}
+
+.slider {
+  max-height: 200px;
+  max-width: fit-content;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.house-info {
+  background: #335c67;
+  border-radius: 20px;
+
+  ion-card-title {
+    font-family: SourceSansPro !important;
+    font-size: 26px;
+    color: #fff;
+  }
+  ion-card-subtitle {
+    font-family: SourceSansPro !important;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .column {
+    padding-right: 15px;
+    display: inline-block; // display inline with ability to provide width/height
+    color: #fff;
+  }
+  .icons {
+    padding-left: 5px;
+    font-size: 16px;
+    display: inline-block; // display inline with ability to provide width/height
+    color: #fff;
+  }
+}
+
+.house-description {
+  border-radius: 20px;
+
+  ion-card-title {
+    font-family: SourceSansPro !important;
+    font-size: 26px;
+    color: #000;
+  }
+  ion-card-content {
+    font-family: SourceSansPro !important;
+    font-size: 18px;
+    color: #000;
+  }
+}
+
+.ubication {
+  font-family: SourceSansPro !important;
+  font-size: 26px;
+  color: #000;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: center;
+  font-weight: bold;
+}
+.swiper-slide-active {
+  transform: scale(1.05, 1.05);
+
+  ion-card {
+    img {
+      transform: scale(1, 1);
+    }
+  }
+}
+
+.swiper-slide {
+  transition: 400ms all ease-in-out;
+}

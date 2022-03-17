@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "address": "Calvi 9541, Chihuahua",
+            "price": "1,500,000",
+            "stairs": "2",
+            "rooms": "3",
+            "baths": "3",
+            "garage": "2",
+            "heigth": "140",
+            "width": "120",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "address": "Monticello 9181, Chihuahua",
+            "price": "2,700,000",
+            "stairs": "3",
+            "rooms": "5",
+            "baths": "5",
+            "garage": "3",
+            "heigth": "100",
+            "width": "120",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "address": "Calvi 9541, Chihuahua",
+            "price": "1,500,000",
+            "stairs": "2",
+            "rooms": "3",
+            "baths": "3",
+            "garage": "2",
+            "heigth": "140",
+            "width": "120",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "address": "Monticello 9181, Chihuahua",
+            "price": "2,700,000",
+            "stairs": "3",
+            "rooms": "5",
+            "baths": "5",
+            "garage": "3",
+            "heigth": "100",
+            "width": "120",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    ]
+}

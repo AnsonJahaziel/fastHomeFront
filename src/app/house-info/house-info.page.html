@@ -1,0 +1,94 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-icon
+        class="backButton"
+        name="chevron-back-outline"
+        routerLink="/tabs"
+      ></ion-icon>
+    </ion-buttons>
+    <ion-title>House</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-slides [options]="option" class="slider">
+    <ion-slide>
+      <ion-card>
+        <img
+          src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/TypesOfHomes/types-of-homes-hero.jpg"
+        />
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img
+          src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/TypesOfHomes/types-of-homes-hero.jpg"
+        />
+      </ion-card>
+    </ion-slide>
+
+    <ion-slide>
+      <ion-card>
+        <img
+          src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/TypesOfHomes/types-of-homes-hero.jpg"
+        />
+      </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-card class="house-info">
+    <ion-card-header>
+      <ion-card-title> Calvi 9541, Chihuahua</ion-card-title>
+      <ion-card-subtitle>$1,500,000</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div class="row">
+        <div class="column">
+          <fa-icon icon="stairs"></fa-icon>
+          <p class="icons">3</p>
+        </div>
+        <div class="column">
+          <fa-icon icon="bed"></fa-icon>
+          <p class="icons">5</p>
+        </div>
+        <div class="column">
+          <fa-icon icon="bath"></fa-icon>
+          <p class="icons">6</p>
+        </div>
+        <div class="column">
+          <fa-icon icon="car-side"></fa-icon>
+          <p class="icons">3</p>
+        </div>
+        <div class="column">
+          <fa-icon icon="ruler"></fa-icon>
+          <p class="icons">15 x 20</p>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="house-description">
+    <ion-card-header>
+      <ion-card-title> Description</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the
+      1500s, when an unknown printer took a galley of type and scrambled it to
+      make a type specimen book. It has survived not only five centuries, but
+      also the leap into electronic typesetting, remaining essentially
+      unchanged. It was popularised in the 1960s with the release of Letraset
+      sheets containing Lorem Ipsum passages, and more recently with desktop
+      publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </ion-card-content>
+  </ion-card>
+
+  <h2 class="ubication">Map</h2>
+
+  <ion-card id="map"> </ion-card>
+</ion-content>

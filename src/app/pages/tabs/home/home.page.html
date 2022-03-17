@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="ion-text-center"> FastHome </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <div *ngFor="let house of houses">
+    <ion-card routerLink="/house-info">
+      <ion-card-header class="ion-no-padding">
+        <img
+          src="https://www.rocketmortgage.com/resources-cmsassets/RocketMortgage.com/Article_Images/Large_Images/TypesOfHomes/types-of-homes-hero.jpg"
+        />
+      </ion-card-header>
+
+      <ion-card-content>
+        <p class="price">${{house.price}}</p>
+
+        <div class="row">
+          <div class="column">
+            <fa-icon icon="stairs"></fa-icon>
+            <p class="icons">{{house.stairs}}</p>
+          </div>
+          <div class="column">
+            <fa-icon icon="bed"></fa-icon>
+            <p class="icons">{{house.rooms}}</p>
+          </div>
+          <div class="column">
+            <fa-icon icon="bath"></fa-icon>
+            <p class="icons">{{house.baths}}</p>
+          </div>
+          <div class="column">
+            <fa-icon icon="car-side"></fa-icon>
+            <p class="icons">{{house.garage}}</p>
+          </div>
+          <div class="column">
+            <fa-icon icon="ruler"></fa-icon>
+            <p class="icons">{{house.heigth}} x {{house.width}}</p>
+          </div>
+        </div>
+        <h2 class="address">{{house.address}}</h2>
+      </ion-card-content>
+    </ion-card>
+  </div>
+
+  <br/><br/><br/>
+</ion-content>

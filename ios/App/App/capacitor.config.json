@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "fastHome",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
